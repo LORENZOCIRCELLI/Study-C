@@ -4,6 +4,7 @@
 #include <string.h>
 #include <time.h>
 
+
 void print_array(int array[], int n) {
     for(int i = 0 ; i < n ; i++) {
         printf("%d\n", array[i]);
@@ -174,4 +175,5 @@ int main() {
     merge_sort(temp, n);
 
     return 0;
+    
 }
