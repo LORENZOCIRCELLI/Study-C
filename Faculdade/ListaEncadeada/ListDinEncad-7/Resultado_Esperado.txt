@@ -1,0 +1,42 @@
+PS C:\Users\loren\Projects\C_Repository\ListaEncadeada\ListDinEncad-7\Sources> ./Main
+Lista 1:
+Mat:1    Nome:Maria      Notas:[7.0, 8.0, 9.0] Media: 8.0
+Mat:2    Nome:Joao       Notas:[4.0, 5.0, 3.0] Media: 4.0
+Mat:3    Nome:Ana        Notas:[10.0, 9.5, 9.0] Media: 9.5
+Mat:4    Nome:Carlos     Notas:[2.0, 3.0, 4.0] Media: 3.0
+Mat:5    Nome:Bruno      Notas:[6.0, 5.0, 5.0] Media: 5.3
+Mat:6    Nome:Paula      Notas:[7.5, 8.0, 7.0] Media: 7.5
+Mat:7    Nome:Lucia      Notas:[4.0, 4.5, 4.0] Media: 4.2
+-------------------------
+Maior m├®dia: Ana (9.5)
+Lista concatenada:
+Mat:1    Nome:Maria      Notas:[7.0, 8.0, 9.0] Media: 8.0
+Mat:2    Nome:Joao       Notas:[4.0, 5.0, 3.0] Media: 4.0
+Mat:3    Nome:Ana        Notas:[10.0, 9.5, 9.0] Media: 9.5
+Mat:4    Nome:Carlos     Notas:[2.0, 3.0, 4.0] Media: 3.0
+Mat:5    Nome:Bruno      Notas:[6.0, 5.0, 5.0] Media: 5.3
+Mat:6    Nome:Paula      Notas:[7.5, 8.0, 7.0] Media: 7.5
+Mat:7    Nome:Lucia      Notas:[4.0, 4.5, 4.0] Media: 4.2
+Mat:8    Nome:Fernando   Notas:[9.0, 8.0, 7.0] Media: 8.0
+Mat:9    Nome:Julia      Notas:[6.0, 7.0, 8.0] Media: 7.0
+Mat:10   Nome:Tiago      Notas:[3.0, 2.0, 4.0] Media: 3.0
+-------------------------
+Aprovados:
+Mat:1    Nome:Maria      Notas:[7.0, 8.0, 9.0] Media: 8.0
+Mat:3    Nome:Ana        Notas:[10.0, 9.5, 9.0] Media: 9.5
+Mat:5    Nome:Bruno      Notas:[6.0, 5.0, 5.0] Media: 5.3
+Mat:6    Nome:Paula      Notas:[7.5, 8.0, 7.0] Media: 7.5
+Mat:8    Nome:Fernando   Notas:[9.0, 8.0, 7.0] Media: 8.0
+Mat:9    Nome:Julia      Notas:[6.0, 7.0, 8.0] Media: 7.0
+-------------------------
+Lista ordenada por nome:
+Mat:3    Nome:Ana        Notas:[10.0, 9.5, 9.0] Media: 9.5
+Mat:5    Nome:Bruno      Notas:[6.0, 5.0, 5.0] Media: 5.3
+Mat:4    Nome:Carlos     Notas:[2.0, 3.0, 4.0] Media: 3.0
+Mat:8    Nome:Fernando   Notas:[9.0, 8.0, 7.0] Media: 8.0
+Mat:2    Nome:Joao       Notas:[4.0, 5.0, 3.0] Media: 4.0
+Mat:9    Nome:Julia      Notas:[6.0, 7.0, 8.0] Media: 7.0
+Mat:7    Nome:Lucia      Notas:[4.0, 4.5, 4.0] Media: 4.2
+Mat:1    Nome:Maria      Notas:[7.0, 8.0, 9.0] Media: 8.0
+Mat:6    Nome:Paula      Notas:[7.5, 8.0, 7.0] Media: 7.5
+Mat:10   Nome:Tiago      Notas:[3.0, 2.0, 4.0] Media: 3.0

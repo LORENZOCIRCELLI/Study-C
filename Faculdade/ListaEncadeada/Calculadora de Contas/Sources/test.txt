@@ -1,0 +1,124 @@
+1
+Netflix
+39.90
+1
+Spotify
+21.90
+1
+Amazon Prime
+14.90
+1
+Disney Plus
+45.00
+1
+HBO Max
+34.90
+1
+YouTube Premium
+24.90
+1
+PlayStation Plus
+59.90
+1
+Xbox Game Pass
+49.99
+1
+Apple Music
+21.90
+1
+Google One
+9.90
+1
+Adobe Creative Cloud
+179.99
+1
+Dropbox
+59.90
+1
+Steam
+100.00
+1
+Epic Games
+80.00
+1
+League of Legends
+50.00
+1
+EA Play
+19.90
+1
+Paramount Plus
+19.90
+1
+Star Plus
+32.90
+1
+IPTV
+49.90
+1
+Claro TV
+120.00
+1
+TIM
+89.90
+1
+Vivo
+99.90
+1
+Oi Fibra
+89.00
+1
+Internet Rural
+150.00
+1
+Agua
+95.50
+1
+Luz
+210.30
+1
+Gas
+98.90
+1
+Aluguel
+1200.00
+1
+Mercado
+600.00
+1
+Farmacia
+120.00
+1
+Academia
+79.90
+1
+Uber
+50.00
+1
+Pop99
+30.00
+1
+Cinema
+45.00
+1
+Restaurante
+120.00
+1
+Cafe
+15.00
+1
+Roupa
+250.00
+1
+Livraria
+90.00
+1
+Jogos Digitais
+75.00
+1
+Hardware PC
+450.00
+1
+Streaming Box
+199.99
+9
