@@ -15,27 +15,36 @@ int main() {
     while(answ != 9) {
         printf("\n1 - Criar uma conta!\n");
         printf("2 - Listar as suas contas!\n"); 
-        printf("3 - Média de todas as contas!\n"); 
+        printf("3 - Media de todas as contas!\n"); 
+        printf("4 - Remover uma conta!\n"); 
+        printf("5 - Atualizar uma conta!\n"); 
+
         printf("9 - Sair!\n");
         printf("Escolha: ");
         scanf("%d", &answ);
 
         switch(answ) {
             case 1: {
-                Conta conta;
-                printf("Insira o nome da conta: ");
-                scanf(" %100[^\n]", conta.nome);
-                printf("Insira o valor da conta: ");
-                scanf("%f", &conta.valor);
+                Conta conta = ler_dados();
                 lista = criar_conta(lista, conta);
                 break;
             }
-            case 2:
+            case 2:{
                 listar_contas(lista);
                 break;
-            case 3:
+            }
+            case 3:{
                 calcular_media(lista);
                 break;
+            }
+            case 4:{
+                lista = remover_conta(lista);
+                break;
+            }
+            case 5:{
+                atualizar_conta(lista);
+                break;
+            }
             case 9:
                 printf("Salvando os arquivos...\n");
                 serialize(lista);

@@ -4,6 +4,7 @@
 typedef struct Conta{
 
     char nome[100];
+//    char categoria[50];
     float valor;
 
 }Conta;
@@ -21,6 +22,7 @@ void listar_contas(Node* node);
 void atualizar_conta(Node* node);
 Node* remover_conta(Node* node);
 void calcular_media(Node* node);
+Conta ler_dados();
 
 /*
 How to save the contents of a Linked List inside a .txt file

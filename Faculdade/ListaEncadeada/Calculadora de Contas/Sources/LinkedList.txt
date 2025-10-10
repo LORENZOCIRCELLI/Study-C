@@ -27,14 +27,13 @@ Agua,95.50
 Luz,210.30
 Gas,98.90
 Aluguel,1200.00
-Mercado,600.00
+Mercado Do Mes,900.00
 Farmacia,120.00
 Academia,79.90
 Uber,50.00
 Pop99,30.00
 Cinema,45.00
 Restaurante,120.00
-Cafe,15.00
 Roupa,250.00
 Livraria,90.00
 Jogos Digitais,75.00

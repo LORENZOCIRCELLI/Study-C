@@ -8,20 +8,13 @@ Node* inicializar_lista() {
 }
 
 Node* criar_conta(Node* node, Conta conta) {
-/*
-    Conta conta;
 
-    printf("Insira o nome da conta: ");
-    scanf(" %100[^\n]", conta.nome);
-
-    printf("Insira o valor da conta: ");
-    scanf("%f", &conta.valor);
-*/
     Node* novo = (Node*) malloc(sizeof(Node));
     if (novo == NULL) {
         printf("Falha ao alocar memória para o node.\n");
         exit(1);
     }
+
 
     novo->conta = conta;
     novo->prox = NULL;
@@ -116,3 +109,55 @@ Node* desserialize(Node* node, char* path) {
     return node;
 }
 
+Conta ler_dados(){
+
+        Conta conta;
+        printf("Insira o nome da conta: ");
+        scanf(" %100[^\n]", conta.nome);
+//        printf("Insira a categoria da conta: ");
+//        scanf("%f", &conta.valor);
+        printf("Insira o valor da conta: ");
+        scanf("%f", &conta.valor);
+        return conta;
+        
+}
+
+Node* remover_conta(Node* node){
+    if(node == NULL){
+        printf("A lista está vazia!");
+        return node;
+    }
+    Node* atual = node;
+    Node* ant = NULL;
+    printf("Insira o nome da conta que voce deseja remover: ");
+    char nome_leitura[100];
+    scanf(" %99[^\n]", nome_leitura);
+
+    while(atual != NULL && strcmp(atual->conta.nome, nome_leitura) != 0){
+        ant = atual;
+        atual = atual->prox;
+    }
+
+    ant->prox = atual->prox;
+    free(atual);
+    return node;
+}
+
+void atualizar_conta(Node* node){
+
+    if(node == NULL){
+        printf("A lista esta vazia!\n");
+        return;
+    }
+    char nome[100];
+    printf("Insira o nome da conta que voce deseja alterar: ");
+    scanf(" %99[^\n]", nome);
+    Node* atual = node;
+    while(atual != NULL && strcmp(atual->conta.nome, nome) != 0){
+        atual = atual->prox;
+    }
+    Conta conta = ler_dados();
+    atual->conta = conta;
+    return;
+    
+}
