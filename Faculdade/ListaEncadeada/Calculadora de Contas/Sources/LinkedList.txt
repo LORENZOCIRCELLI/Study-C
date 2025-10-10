@@ -34,8 +34,7 @@ Uber,50.00
 Pop99,30.00
 Cinema,45.00
 Restaurante,120.00
-Roupa,250.00
-Livraria,90.00
+Camiseta,100.00
 Jogos Digitais,75.00
 Hardware PC,450.00
 Streaming Box,199.99

@@ -1,6 +1,6 @@
 #ifndef CLIENT_H
 #define CLIENT_H
-
+#include "financial.h"
 typedef struct Data{
     int dia;
     int mes;
@@ -10,24 +10,25 @@ typedef struct Data{
 typedef struct Cliente{
 
     char nome[100];
-    Data data_aniversario;
+    Data data_nascimento;
     char sexo;
+    Node* contas;
 
 }Cliente;
 
-typedef struct Node Node;
+typedef struct Node_Client Node_Client;
 
-struct Node{
+struct Node_Client{
     Cliente cliente;
-    Node* prox;
-    Node* ant;
+    Node_Client* prox;
+    Node_Client* ant;
 };
 
-Node* inicializar_lista();
-Node* criar_cliente(Node* node, Cliente cliente);
-Node* remover_cliente(Node* node);
-void listar_clientes(Node* node);
-void atualizar_cliente(Node* node);
+Node_Client* inicializar_listac();
+Node_Client* criar_cliente(Node_Client* Node_Client, Cliente cliente);
+Node_Client* remover_cliente(Node_Client* Node_Client);
+void listar_clientes(Node_Client* Node_Client);
+void atualizar_cliente(Node_Client* Node_Client);
 
 Cliente ler_cliente();
 
